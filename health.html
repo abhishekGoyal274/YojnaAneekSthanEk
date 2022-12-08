@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script>
+        function bpl() {
+            $(".bpl").toggleClass("hide");
+        }
+
+        function pregnant() {
+            $(".pregnant").toggleClass("hide");
+        }
+
+        function others() {
+            $(".others").toggleClass("hide");
+        }
+    </script>
+    <title>Health</title>
+    <link rel="stylesheet" href="health.css">
+
+    <style type="text/css">
+        body {
+            padding-top: 20px;
+        }
+        
+        .Filter {
+            padding: 20px;
+            font: 1.2em sans-serif;
+        }
+        
+        .small {
+            transition: 1s ease-in-out;
+        }
+        
+        .others {
+            transition: 1s ease-in-out;
+        }
+        
+        .all {
+            transition: 1s ease-in-out;
+        }
+        
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mx-3">
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h3 class="display-4 fst-italic">Health</h3>
+                <p class="lead my-3">Governments all over the world work towards providing good quality healthcare for their people. Creating awareness about health issues, ensuring strong infrastructure, and promoting health insurance are productive activities conducted
+                    by the authorities for people’s welfare. </p>
+            </div>
+        </div>
+        <div class="d-grid gap-4" style="grid-template-columns: 1fr 3fr;">
+            <div class="bg-light border rounded-3 Filter">
+                <h2>Health</h2><br>
+                <input type="checkbox" checked="checked" id="one" onclick="bpl()">
+                <label for="one">
+                    <h5><strong>BPL</strong></h5>
+                </label><br><br>
+                <input type="checkbox" checked="checked" id="two" onclick="pregnant()">
+                <label for="two">
+                    <h5><strong>Pregnant</strong></h5>
+                </label><br><br>
+                <input type="checkbox" checked="checked" id="three" onclick="others()">
+                <label for="three">
+                    <h5><strong>Others</strong></h5>
+                </label><br><br>
+                <input type="checkbox" checked="checked" disabled id="four">
+                <label for="four">
+                    <h5><strong>All Schemes</strong></h5>
+                </label><br><br>
+
+            </div>
+            <div class="bg-light border rounded-3" class="content">
+                <div class="bg-light border rounded-3" class="content">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                        <div class="pregnant">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://3.bp.blogspot.com/-y3WGUiirky0/W47KY0kgQ7I/AAAAAAAAIQI/Q0kWkDcBkuoUbwfnF97Nl-rwp4dPkJK2ACEwYBhgL/s1600/jssk.jpg" height="300px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Janani Shishu Suraksha Karyakaram</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="/women.html/jssk.html" class="btn btn-dark">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bpl">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://www.sarkariyojnaye.com/wp-content/uploads/2020/02/rashtriya-arogya-nidhi-scheme.jpg" height="300px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rashtriya Arogya Nidhi</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="/health.html/pmuy.html" class="btn btn-dark">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bpl">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="http://sarkaariyojana.in/wp-content/uploads/2020/09/PMJAY-Logo.jpg" height="300px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pradhan Mantri Jan Arogya Yojana</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="/health.html/pmjay.html" class="btn btn-dark">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pregnant">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://new-img.patrika.com/upload/2018/12/08/jhansi_3812771_835x547-m.jpg" height="300px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pradhan Mantri Surakshit Matritva Abhiyan</h5>
+
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="/women.html/pmsma.html" class="btn btn-dark">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="others">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://new-img.patrika.com/upload/2020/01/05/8_5600418_835x547-m.jpg" height="300px" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mission Indradhanush</h5>
+
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="/women.html/mi.html" class="btn btn-dark">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="women.js"></script>
+
+</body>
+
+</html>

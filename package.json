@@ -1,0 +1,29 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "The government announces various schemes in various sectors- Agriculture, Finance, Education, women empowerment etc. These schemes are formulated by experts with years of experience and knowledge but the problem is the lack of awareness amongst the people of our country especially in rural India. There is no one place where we can find all the schemes and finding the best and most suitable scheme for oneself is a mammoth task. One has to browse websites of various ministries and read documentation meant for bureaucrats and specialists to gain knowledge of the schemes of the government. This is not possible for a vast majority of people in our country and the vast majority of the targeted beneficiaries are missed out. To solve this problem, we created this website.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DigInd",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngarg2k2/Hackodisha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngarg2k2/Hackodisha/issues"
+  },
+  "homepage": "https://github.com/ngarg2k2/Hackodisha#readme"
+}
